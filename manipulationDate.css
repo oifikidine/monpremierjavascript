@@ -1,0 +1,148 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("beautiful-luxury-hotel-swimming-pool.jpg"); /* adapte le chemin */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+div{
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+
+    display: flex;
+    gap: 20px;
+
+    font-size: x-large;
+    
+    
+}
+
+#date{
+    background-color: #3bbcff;
+    border: 1px solid #3bbcff;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius:25px; 
+    margin-top: 100px;
+}
+
+#mois{
+    text-align: center;
+     background-color: #3bbcff;
+    border: 1px solid #3bbcff;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius:25px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#deux {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#bb {
+  padding-right: 10px;
+  font-size: x-large;
+}
+
+#dateComplete {
+  padding-left: 10px;
+  border-left: 2px solid red;
+  font-size:x-large;
+}
+
+section{
+    display: flex;
+    gap: 10px;
+}
+
+
+ #horloges {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  width: 800px;
+}
+
+.ville {
+  border: 1px solid aquamarine;
+  background-color: aquamarine;
+  width: 180px;
+  height: 150px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+}
+
+.ville h3 {
+  margin-bottom: 20px;
+}
+
+.ville span {
+  font-size: x-large;
+  font-weight: bold;
+} */
+
+#horaires {
+ 
+   margin-top: 30px;
+  display: flex;
+  gap: 20px;
+   border: 1px solid aquamarine;
+    background-color: aquamarine;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 25px;
+
+ 
+  
+}
+
+
+.carte {
+  background-color: #3bbcff;
+  border-radius: 20px;
+  width: 180px;
+  height: 150px;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  font-size: x-large;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.carte h3 {
+  margin-bottom: 15px;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+
+.carte span {
+  font-size: xx-large;
+  font-weight: bold;
+
+}

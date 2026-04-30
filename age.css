@@ -1,0 +1,31 @@
+form{
+    border: solid ;
+    background-color: #FEEAA1;
+    margin: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 50px;
+    text-align: center;
+}
+
+#boutonValider{
+    margin-top: 15px;
+}
+
+input{
+    background-color: #FEEAA1;
+}
+
+#resultat{
+    text-align: center;
+    border: solid;
+    background-color: #D6955B;
+     margin: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 50px;
+}
+
+* {
+    background-color: #FEEAA1;
+}

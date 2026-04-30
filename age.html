@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul Age Automatique</title>
+    <link rel="stylesheet" href="age.css">
+     <script src="age.js" defer></script>
+     <script src="evenement.js" defer></script>
+    
+</head>
+<body>
+    
+    <h1>Calcul âge</h1>
+    <!-- j'affiche la date du jour et l'heure  -->
+     <div id="date" class="date">
+        <button id="validerDate">Date du jours</button>
+        <span id="dateDuJour"></span>
+        <br>
+        <p>
+           Date au format local: <span id="dateDuJourFormat2"></span>
+        </p>
+     </div>
+
+     <div id="fonctionFleche">
+        <button id="boutonFleche">Fonction Flêchée</button>
+
+     </div>
+
+    <!-- Je liste les communes de Mayotte -->
+    <h3 id="communes">Communes de Mayotte</h3>
+    <ol id="listCommunes">
+        <li class="commune">Acoua</li>
+        <li class="commune">Bandraboua</li>
+        <li class="commune">Bandrele</li>
+        <li class="commune">Bouéni</li>
+        <li class="commune">Chiconi</li>
+        <li class="commune">Chirongui</li>
+        <li class="commune">Dembeni</li>
+        <li class="commune">Dzaoudzi</li>
+        <li class="commune">Kani-Kéli</li>
+        <li class="commune">Koungou</li>
+        <li class="commune">Mamoudzou</li>
+        <li class="commune">Mtsamboro</li>
+        <li class="commune">M'tsangamouji</li>
+        <li class="commune">Ouangani</li>
+        <li class="commune">Pamandzi</li>
+        <li class="commune">Sada</li>
+        <li class="commune">Tsingoni</li>
+    </ol>
+    <form id="formAge">
+        <div>
+            <h4>Présentez-vous</h4>
+        </div>
+        <div id="recensement">
+            <p id="paragraphe">Nous recensons la population de mayotte.</p>
+        </div>
+        <label for="Nom">Nom:</label>
+        <input type="text" id="Nom" name="Nom">
+
+        <label for="Prenom">Prenom:</label>
+        <input type="text" id="Prenom" name="Prenom">
+        <br>
+        <label for="Situation">Situation:</label>
+        <select name="Situation" id="Situation">
+            <option value="etudiant">Etudiant</option>
+            <option value="salarie">Salarié</option>
+        </select>
+        <br>
+        <label for="anneeDeNaissance">Année de naissance:</label>
+        <input type="number" id="anneeNaissance" name="anneeNaissance">
+        <br>
+          <input type="submit" value="Valider" id="boutonValider">
+
+          <p id="message">
+            
+          </p>
+    </form>
+    <br>
+    <div id="resultat">
+
+    </div>
+    
+
+   
+</body>
+</html>
+
